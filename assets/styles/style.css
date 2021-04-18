@@ -47,7 +47,7 @@ table {
 	border-spacing: 0;
 }
 /*сброс css */
-h1{
+.title{
   font-style: italic;
   color: green;
 }
