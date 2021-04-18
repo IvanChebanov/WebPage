@@ -3,5 +3,5 @@ y=40
 
 def side(x,y):
     side=x*y
-    print(side)
+    print(side)   
 side(x,y)
