@@ -1,0 +1,6 @@
+body{
+	position: relative;
+	width: 1980px;
+	height: 2160px;
+	background: linear-gradient(180deg, rgba(52, 218, 108, 0) 43.23%, rgba(68, 194, 111, 0.7) 100%), #C6FFEA;
+}
