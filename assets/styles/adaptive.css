@@ -1,43 +1,156 @@
-html{
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
-body{
+html {
 	height: 2160px;
 	background: linear-gradient(180deg, rgba(52, 218, 108, 0) 43.23%, rgba(68, 194, 111, 0.7) 100%), #C6FFEA;
+	/*background-repeat: no-repeat;*/
+	font-size:16px;	
 }
+body {}
 
-/* HEADER */	
-#logo{
-	float:left;
-	margin: 20px 0 0 60px;	
+/* HEADER */
+header{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 10px 1%;
 }
-ul{
-	list-style-type: none;
+.logo{
+	margin-right: auto;
 }
-a.button{
+#logo {
+	height:80px;	
+}
+/* LINKS */
+.nav_links {
+  list-style: none;
+  display: flex;
+}
+a.nav{  
+	display: block;
+	width: 160px;
+	height: 60px;
 	background: #96F9AC;
 	border-radius: 30px;
 
-	font-family: 'Righteous', cursive;
-	font-style: normal;
-	font-weight: normal;
-	text-align: center;
-	text-decoration: none;
-	font-size: 2.25em;
-	line-height: 46px;
+	font-family: 'Righteous';
+	font-size: 1.5em;
 	color: #000000;
+	text-decoration: none;
+	text-align: center;
+	
+	margin-right: 10px;
+	padding: 15px 0;
 
-	float:right;
-	box-sizing: border-box;
-	padding: 24px 0 24px 0;
-	margin: 42px 22px 0 0;
-	width: 157px;
-	height: 98px;	
 }
-a.notes{
-	padding: 0;
+div.nav-text:hover {
+	transform: rotate(5deg);
 }
-div:hover{
-	transform: rotate(20deg);
+/* BGM_MUSIC_BUTTON*/
+.music-btn {
+	flex-shrink: 0;    /* отменить сжатие background */
+	width: 80px;
+	height: 80px;
+	border: none;
+	border-radius: 50%; 
+	background: #96F9AC;
+	cursor: pointer;
+	position: relative;
+}
+.mute-img{
+	position: absolute;
+	left: 0px;
+}
+.bgm-note {
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	top: 5px;
 }
 
+.bgm-line {
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	top: 5px;
+}
+/*
+@media only screen and (max-width: 1085px){
 
+	}*/
+/*------------------------------------------------------------------------------*/
+
+/* Mobile Nav */  
+/*
+.menu {
+  display: none;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: #24252a;
+  overflow-x: hidden;
+  transition: all 0.5s ease 0s;
+}
+
+.overlay--active {
+  width: 100%;
+}
+
+.overlay__content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay a {
+  padding: 15px;
+  font-size: 36px;
+  display: block;
+  transition: all 0.3s ease 0s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #0088a9;
+}
+.overlay .close {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  color: #edf0f1;
+  cursor: pointer;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px;
+  }
+  .overlay .close {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .nav__links,
+  .cta {
+    display: none;
+  }
+  .menu {
+    display: initial;
+  }
+}*/
+/*-----------------------------------------------------*/
