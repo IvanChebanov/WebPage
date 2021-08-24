@@ -1,9 +1,6 @@
 html{
-	/*font-size: 36px;*/
 }
 body{
-	/*position: relative;
-	width: 1980px;*/
 	height: 2160px;
 	background: linear-gradient(180deg, rgba(52, 218, 108, 0) 43.23%, rgba(68, 194, 111, 0.7) 100%), #C6FFEA;
 }
@@ -13,38 +10,9 @@ body{
 	float:left;
 	margin: 20px 0 0 60px;	
 }
-nav{
-	/*font-family: 'Righteous', cursive;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 36px;
-	line-height: 45px;*/
-	
-}
 ul{
 	list-style-type: none;
 }
-
-li{
-
-}
-/*a{
-	box-sizing: border-box;
-	padding: 31px 0 31px 0;
-
-	text-decoration: none;
-	text-align: center;
-	float:right;
-	margin: 42px 22px 0 0;
-	width: 157px;
-	height: 98px;
-
-	background: #96F9AC;
-	border-radius: 30px;
-
-	color: #000000;
-
-}*/
 a.button{
 	background: #96F9AC;
 	border-radius: 30px;
