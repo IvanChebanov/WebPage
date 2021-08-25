@@ -4,6 +4,7 @@
 	padding: 0;
 }
 html {
+	position: relative;
 	height: 2160px;
 	background: linear-gradient(180deg, rgba(52, 218, 108, 0) 43.23%, rgba(68, 194, 111, 0.7) 100%), #C6FFEA;
 	/*background-repeat: no-repeat;*/
@@ -22,12 +23,12 @@ header{
 	margin-right: auto;
 }
 #logo {
-	height:80px;	
+	height:80px;
 }
 /* LINKS */
 .nav_links {
   list-style: none;
-  display: flex;
+	display: flex;
 }
 a.nav{  
 	display: block;
@@ -47,6 +48,7 @@ a.nav{
 
 }
 div.nav-text:hover {
+	transition: all 2s;
 	transform: rotate(5deg);
 }
 /* BGM_MUSIC_BUTTON*/
@@ -80,6 +82,34 @@ div.nav-text:hover {
 @media only screen and (max-width: 1085px){
 
 	}*/
+
+/* FOOTER */
+footer{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 10px 1%;
+
+	position: absolute;   /* stick to bottom  */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.foot-img{
+	height: 50px;
+/*	margin-right: 10px;	*/
+}
+.foot-rights{
+	height: 20px;
+}
+.rights{
+	margin-right: auto;
+}
+.social-bar{
+	display: flex;
+	flex-wrap: nowrap;
+	gap: 10px;
+}
 /*------------------------------------------------------------------------------*/
 
 /* Mobile Nav */  
