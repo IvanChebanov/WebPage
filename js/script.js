@@ -1,3 +1,3 @@
 function playBGM() {
-  document.getElementById("sdfsdfasd");
+  document.getElementById("sdfsdfasda");
 }
