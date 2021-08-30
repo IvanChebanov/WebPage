@@ -10,7 +10,9 @@ html {
 	/*background-repeat: no-repeat;*/
 	font-size:16px;	
 }
-body {}
+body {
+	height: 2160px;
+}
 
 /* HEADER */
 header{
@@ -82,7 +84,13 @@ div.nav-text:hover {
 @media only screen and (max-width: 1085px){
 
 	}*/
-
+/* CONTENT */
+content{
+	font-family: 'Righteous';
+	font-size: 2em;
+	color: #000000;
+	text-align: center;
+}
 /* FOOTER */
 footer{
 	display: flex;
@@ -97,7 +105,6 @@ footer{
 }
 .foot-img{
 	height: 50px;
-/*	margin-right: 10px;	*/
 }
 .foot-rights{
 	height: 20px;
