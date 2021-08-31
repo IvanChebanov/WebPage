@@ -6,7 +6,7 @@
 html {
 	position: relative;
 	height: 2160px;
-	background: linear-gradient(180deg, rgba(52, 218, 108, 0) 43.23%, rgba(68, 194, 111, 0.7) 100%), #C6FFEA;
+	background: linear-gradient(180deg, rgba(52, 218, 108, 0) 43.23%, rgba(50, 129, 76, 0.7) 100%), #C6FFEA;
 	/*background-repeat: no-repeat;*/
 	font-size:16px;	
 }
@@ -29,10 +29,10 @@ header{
 }
 /* LINKS */
 .nav_links {
-  list-style: none;
+	list-style: none;
 	display: flex;
 }
-a.nav{  
+a.nav{
 	display: block;
 	width: 160px;
 	height: 60px;
@@ -88,9 +88,10 @@ a.nav{
 /*
 @media only screen and (max-width: 1085px){
 
-	}*/
+}*/
 /* MAIN */
 main {
+	display: flexbox;
 }
 content{
 	font-family: 'Righteous';
@@ -102,7 +103,7 @@ content{
 	font-family: 'Righteous';
 	font-size: 1.5em;
 	color: #000000;
-	text-align: center;	
+	text-align: center;
 }
 /* FOOTER */
 footer{
@@ -112,9 +113,9 @@ footer{
 	padding: 10px 1%;
 
 	position: absolute;   /* stick to bottom  */
-  left: 0;
-  bottom: 0;
-  width: 100%;
+	left: 0;
+	bottom: 0;
+	width: 100%;
 }
 #rights-img{
 	height: 20px;
@@ -132,74 +133,74 @@ footer{
 }
 /*------------------------------------------------------------------------------*/
 
-/* Mobile Nav */  
+/* Mobile Nav */
 /*
 .menu {
-  display: none;
+	display: none;
 }
 
 .overlay {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  background-color: #24252a;
-  overflow-x: hidden;
-  transition: all 0.5s ease 0s;
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	background-color: #24252a;
+	overflow-x: hidden;
+	transition: all 0.5s ease 0s;
 }
 
 .overlay--active {
-  width: 100%;
+	width: 100%;
 }
 
 .overlay__content {
-  display: flex;
-  height: 100%;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .overlay a {
-  padding: 15px;
-  font-size: 36px;
-  display: block;
-  transition: all 0.3s ease 0s;
+	padding: 15px;
+	font-size: 36px;
+	display: block;
+	transition: all 0.3s ease 0s;
 }
 
 .overlay a:hover,
 .overlay a:focus {
-  color: #0088a9;
+	color: #0088a9;
 }
 .overlay .close {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
-  color: #edf0f1;
-  cursor: pointer;
+	position: absolute;
+	top: 20px;
+	right: 45px;
+	font-size: 60px;
+	color: #edf0f1;
+	cursor: pointer;
 }
 
 @media screen and (max-height: 450px) {
-  .overlay a {
-    font-size: 20px;
-  }
-  .overlay .close {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
-}
+	.overlay a {
+		font-size: 20px;
+	}
+		overlay .close {
+		font-size: 40px;
+		top: 15px;
+		right: 35px;
+		}
+	}
 
 @media only screen and (max-width: 800px) {
-  .nav__links,
-  .cta {
-    display: none;
-  }
-  .menu {
-    display: initial;
-  }
-}*/
+	.nav__links,
+	.cta {
+		display: none;
+	}
+	.menu {
+		display: initial;
+	}
+}
 /*-----------------------------------------------------*/
