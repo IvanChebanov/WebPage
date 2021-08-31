@@ -1,19 +1,16 @@
-
 const musicBtn = document.querySelector('.music-btn');
 const musicLine = document.querySelector('.bgm-line');
 const audioPlayer = document.querySelector('audio');
+
 musicBtn.onclick = function() {
-	if(musicLine.style.visibility === "hidden"){
-		musicLine.style.visibility = "visible";
+	if(musicLine.hidden){
+		musicLine.hidden = false;
 		audioPlayer.pause();	
 	}else{
-		musicLine.style.visibility = "hidden";
+		musicLine.hidden = true;
 		audioPlayer.play();
 	}
 };
-console.log(musicBtn);
-console.log(musicLine);
-console.log(audioPlayer);
-
-
-/* TEST SCRIPT */
+// console.log(musicBtn);
+// console.log(musicLine);
+// console.log(audioPlayer);
