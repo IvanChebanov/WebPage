@@ -2,80 +2,118 @@
 <html lang="en" dir="ltr">
 
 <head>
-	<meta charset="utf-8">
-	<!-- STYLES -->
-	<link rel="stylesheet" href="assets/styles/reset.css">
-	<link rel="stylesheet" href="assets/styles/adaptive.css">
-	<!-- ICON & TITLE -->
-	<link rel="icon" href="assets/img/LOGOicon.png">
-	<title>Icheba | Official Website</title>
+	<!-- META -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- FONTS -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+	<!-- STYLES -->
+	<!-- <link rel="stylesheet" href="assets/styles/reset.css"> -->
+	<link rel="stylesheet" href="assets/styles/style.css">
+	<!-- ICON & TITLE -->
+	<link rel="icon" href="assets/img/LOGOicon.png">
+	<title>Icheba | Official Website</title>
 </head>
-<!--
-	!Lorem ipsum dolor sit amet.
-	TODO:
-	//sdelano
-	?fasdjfhajdhf
-	
-	-->
 
 <body>
-	<header>
-		<!-- LOGO -->
-		<a id="logo" href="index.html"><img src="assets/img/Logo.png" alt="Ivan Chebanov|Icheba" id="logo-img" /></a>
-		<!-- NAV_PANEL -->
-		<nav>
-			<ul class="nav_links">
-				<li><a class="nav" href="about.html"><span class="nav-text">About</span></a></li>
-				<li><a class="nav" href="music.html"><span class="nav-text">Music</span></a></li>
-				<li><a class="nav" href="notes.html"><span class="nav-text">Notes&Tabs</span></a></li>
-				<li><a class="nav" href="support.html"><span class="nav-text">Support</span></a></li>
-				<li><a class="nav" href="contact.html"><span class="nav-text">Contact</span></a></li>
-			</ul>
-		</nav>
-		<!-- BGM_MUSIC_BUTTON -->
-		<button class="music-btn">
-			<img class="mute-img bgm-note" src="assets/img/note.png">
-			<img class="mute-img bgm-line" src="assets/img/line.png">
-		</button>
-		<!-- BACKGROUND MUSIC -->
-		<audio loop>
-			<source src="assets/music/the Human Empire Army.mp3" type="audio/mp3">
-			<source src="assets/music/a council of war.mp3" type="audio/mp3">
-			<source src="assets/music/on the counterattack.mp3" type="audio/mp3">
-			<source src="assets/music/birds.mp3" type="audio/mp3">
-		</audio>
+	<div class="wraper">
+		<header class="header">
+			<div class="header__container container">
+				<div class="header__body">
+					<div class="header__logo">
+						<a href="">
+							<img src="/assets/img/Logo.png" alt="">
+						</a>
+					</div>
+					<div class="header__right-panel">
+						<div class="header__burger">
+							<span></span>
+						</div>
+						<nav class="header__menu">
+							<ul class="header__list">
+								<li><a href="" class="header__link">Main</a></li>
+								<li><a href="" class="header__link">Music</a></li>
+								<li><a href="" class="header__link">Notes</a></li>
+								<li><a href="" class="header__link">Contact</a></li>
+								<li><a href="" class="header__link">Support</a></li>
+								<li><a href="" class="header__link">Games</a></li>
+							</ul>
+						</nav>
+						<div class="header__bgm-btn">
+							<img class="header__bgm-img note" src="/assets/img/note.png" alt="">
+							<img class="header__bgm-img line" src="/assets/img/line.png" alt="">
+							<audio class="header__bgm-audio" src="/assets/music/a council of war.mp3"></audio>
+						</div>
+					</div>
+				</div>				
+			</div> 
+		</header>
+		<main class="main">
+			<div class="main__container container">
+				<div class="keyboard">
+					<div data-note="C" class="keys white"></div>
+					<div data-note="Db" class="keys black"></div>
+					<div data-note="D" class="keys white"></div>
+					<div data-note="Eb" class="keys black"></div>
+					<div data-note="E" class="keys white"></div>
+					<div data-note="F" class="keys white"></div>
+					<div data-note="Gb" class="keys black"></div>
+					<div data-note="G" class="keys white"></div>
+					<div data-note="Ab" class="keys black"></div>
+					<div data-note="A" class="keys white"></div>
+					<div data-note="B" class="keys black"></div>
+					<div data-note="H" class="keys white"></div>
 
-	</header>
-	<!-- MAIN -->
-	<main>
-		<content>
-			<h1><span class="title">Welcome to Main</span></h1>
-			<p>Hi I am Ivan Chebanov and it is my first web site</p>
-			<p>I like music, programming and japanise culture</p>
-		</content>
-	</main>
-	<!-- FOOTER -->
-	<footer>
-		<div id="rights">
-			<img id="rights-img" src="assets/img/©Icheba.png">
-		</div>
-		<div class="social-bar">
-			<a class="social" href="https://www.instagram.com/ivan_chebanov/"><img class="social-img"
-					src="assets/img/IG.png"></a>
-			<a class="social" href="https://www.facebook.com/ivan.chebanov.77/"><img class="social-img"
-					src="assets/img/FB.png"></a>
-			<a class="social" href="https://vk.com/icheba"><img class="social-img" src="assets/img/VK.png"></a>
-			<a class="social" href="https://www.youtube.com/channel/UC3bZFIaDQa938pASYmF8frQ"><img class="social-img"
-					src="assets/img/YT.png"></a>
-			<a class="social" href="https://open.spotify.com/user/5gxuo4k54gqzr5r97xvtgfq0c?si=41908ba462334cb1"><img
-					class="social-img" src="assets/img/SPF.png"></a>
-			<a class="social" href="#"><img class="social-img" src="assets/img/AM.png"></a>
-		</div>
-	</footer>
+					<audio src="assets/music/notes/C.mp3" id="C"></audio>
+					<audio src="assets/music/notes/Db.mp3" id="Db"></audio>
+					<audio src="assets/music/notes/D.mp3" id="D"></audio>
+					<audio src="assets/music/notes/Eb.mp3" id="Eb"></audio>
+					<audio src="assets/music/notes/E.mp3" id="E"></audio>
+					<audio src="assets/music/notes/F.mp3" id="F"></audio>
+					<audio src="assets/music/notes/Gb.mp3" id="Gb"></audio>
+					<audio src="assets/music/notes/G.mp3" id="G"></audio>
+					<audio src="assets/music/notes/Ab.mp3" id="Ab"></audio>
+					<audio src="assets/music/notes/A.mp3" id="A"></audio>
+					<audio src="assets/music/notes/B.mp3" id="B"></audio>
+					<audio src="assets/music/notes/H.mp3" id="H"></audio>
+				</div>
+			</div>
+		</main>
+		<!-- <main>
+			<content>
+				<h1><span class="title">Welcome to Main</span></h1>
+				<p>Hi I am Ivan Chebanov and it is my first web site</p>
+				<p>I like music, programming and japanise culture</p>
+			</content>
+		</main>
+		<footer>
+			<div id="rights">
+				<img id="rights-img" src="assets/img/©Icheba.png">
+			</div>
+			<div class="social-bar">
+				<a class="social" href="https://www.instagram.com/ivan_chebanov/">
+					<img class="social-img" src="assets/img/IG.png">
+				</a>
+				<a class="social" href="https://www.facebook.com/ivan.chebanov.77/">
+					<img class="social-img" src="assets/img/FB.png">
+				</a>
+				<a class="social" href="https://vk.com/icheba">
+					<img class="social-img" src="assets/img/VK.png">
+				</a>
+				<a class="social" href="https://www.youtube.com/channel/UC3bZFIaDQa938pASYmF8frQ">
+					<img class="social-img" src="assets/img/YT.png">
+				</a>
+				<a class="social" href="https://open.spotify.com/user/5gxuo4k54gqzr5r97xvtgfq0c?si=41908ba462334cb1">
+					<img class="social-img" src="assets/img/SPF.png">
+				</a>
+				<a class="social" href="#">
+					<img class="social-img" src="assets/img/AM.png">
+				</a>
+			</div>
+		</footer> -->
+	</div>
 	<script src="assets/js/script.js"></script>
 </body>
 
