@@ -116,11 +116,11 @@ html, body {
 	align-items: center; 
 }
 
-body {
+/* body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
+} */
 .keyboard {
 	display: flex;
 }
