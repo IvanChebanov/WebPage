@@ -149,15 +149,18 @@ body {
 	justify-content: space-between;
 }
 .generate-note {
-	height: 30px;
-	padding: 6px;
+	height: 50px;
+	padding: 16px;
 	background-color: #bbb;
 }
 .repeat-note {
 	display: flex;
-	height: 30px;
-	padding: 6px;
+	height: 50px;
+	padding: 16px;
 	background-color: #bbb;
+}
+.message-note{
+	padding: 12px;
 }
 /*
 @media (max-width:767px){
