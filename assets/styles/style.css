@@ -162,83 +162,10 @@ body {
 .message-note{
 	padding: 12px;
 }
-/*
+
 @media (max-width:767px){
-	body.lock{
-		overflow: hidden;
-	}
-	.header__body {
-		height: 50px;
-	}
-	.header__logo {
-		flex: 0 0 50px;
-	}
-	.header__burger {
-		display: block;
-		position: relative;
-		width: 30px;
-		height: 20px;
-		position: relative;
-		z-index: 3;
-	}
-	.header__burger span {
-		position: absolute;
-		background-color: blueviolet;
-		width: 100%;
-		height: 2px;
-		left: 0;
-		top: 9px;
-		transition: all 0.3s ease 0s;
-	}
-	.header__burger:before,
-	.header__burger:after {
-		content: '';
-		background-color: blueviolet;
-		position: absolute;
-		width: 100%;
-		height: 2px;
-		left: 0;
-		transition: all 0.3s ease 0s;
-	}
-	.header__burger:before {
-		top: 0;
-	}
-	.header__burger:after {
-		bottom: 0;
-	}
-	.header__burger.active span {
-		transform: scale(0);
-	}
-	.header__burger.active:before {
-		transform: rotate(45deg);
-		top: 9px;
-	}
-	.header__burger.active:after {
-		transform: rotate(-45deg);
-		bottom: 9px;
-	}
 	.header__menu {
-		position: fixed;
-		top: -100%;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		overflow: auto;
-		background-color: rgb(57, 125, 228);
-		padding: 70px 10px 20px 10px;
-		transition: all 0.3s ease 0s;
+		display: none;
 	}
-	.header__menu.active {
-		top: 0;
-	}
-	.header__list {
-		display: block;
-	}
-	.header__list li {
-		margin: 0px 0px 20px 0px;
-	}
-	.header__link {
-		font-size: 24px;
-	}
-} */
+}	
 
